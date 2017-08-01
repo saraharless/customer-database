@@ -48,7 +48,7 @@ img {
   text-transform: capitalize;
 }
 
-.email, .streetaddress, .streetcode, .phone,{
+.email {
   color: #7C7C7C;
   font-size: 15px;
 }
