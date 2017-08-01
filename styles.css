@@ -1,25 +1,46 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   line-height: 1.4;
+}
+
+.row {
+  margin: 20px 40px;
+  min-width: 335px;
 }
 
 h3 {
   display: flex;
-  text-transform: uppercase;
   justify-content: center;
+  margin: 2% auto;
+  color: #303030;
+  font-size: 30px;
 }
 .names{
-  text-transform: capitalize;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border-bottom: 3px solid #B6DDC8;
+}
+
+.email{
+  padding-top: 10px;
 }
 
 div {
   text-align: center;
+}
 
+img {
+  height: 250px;
+  padding-bottom: 10px;
+}
 
+.streetaddress, .streetcode {
+  text-transform: capitalize;
 }
