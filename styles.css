@@ -1,0 +1,25 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  line-height: 1.4;
+}
+
+h3 {
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+}
+.names{
+  text-transform: capitalize;
+}
+
+div {
+  text-align: center;
+
+
+}
