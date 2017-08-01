@@ -25,7 +25,10 @@ h3 {
 .names{
   text-transform: uppercase;
   font-weight: bolder;
-  border-bottom: 3px solid #B6DDC8;
+  border-bottom: 3px solid #13B15B;
+  margin: 5px 60px 10px 60px;
+  padding-bottom: 5px;
+  color: #303030;
 }
 
 .email{
@@ -44,3 +47,12 @@ img {
 .streetaddress, .streetcode {
   text-transform: capitalize;
 }
+
+.email, .streetaddress, .streetcode, .phone,{
+  color: #7C7C7C;
+  font-size: 15px;
+}
+
+ .ssn{
+   color: #13B15B;
+ }
